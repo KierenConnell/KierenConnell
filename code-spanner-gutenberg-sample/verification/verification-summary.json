@@ -1,0 +1,57 @@
+{
+  "wordpress": "7.1.5",
+  "php": "8.3.36",
+  "checkedAtUtc": "2026-11-23T19:27:38+00:00",
+  "checks": [
+    {
+      "name": "Block registered on server",
+      "passed": true
+    },
+    {
+      "name": "Defaults render availability and no empty contact link",
+      "passed": true
+    },
+    {
+      "name": "Unknown availability falls back safely",
+      "passed": true
+    },
+    {
+      "name": "Invalid attribute type gets schema default",
+      "passed": true
+    },
+    {
+      "name": "HTML injection removed and unsafe URL omitted",
+      "passed": true
+    },
+    {
+      "name": "RichText line break retained",
+      "passed": true
+    },
+    {
+      "name": "HTTPS link and escaped label render",
+      "passed": true
+    },
+    {
+      "name": "Blank link label omits button",
+      "passed": true
+    },
+    {
+      "name": "Unicode text survives rendering",
+      "passed": true
+    },
+    {
+      "name": "Mailto is supported",
+      "passed": true
+    },
+    {
+      "name": "Editor script declares WordPress dependencies",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "browserVerification": {
+    "frontEnd": "Rendered page and example contact link observed in browser; desktop screenshot saved.",
+    "editor": "Editor loaded and stored block markup observed. Visual editor canvas was blank in this browser; interactive block editing/save is not verified.",
+    "mobile": "Viewport change did not produce a mobile-sized screenshot; responsive behavior not verified."
+  }
+}

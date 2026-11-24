@@ -1,0 +1,10 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/post.php?post=100&action=edit",
+  "login": true,
+  "steps": [
+    { "step": "activatePlugin", "pluginPath": "service-notice/service-notice.php" },
+    { "step": "setSiteOptions", "options": { "blogname": "Code & Spanner — Gutenberg demonstration", "blogdescription": "Self-owned sample. Not a commissioned client site." } },
+    { "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; require '/csp-verification/run-render-checks.php';" }
+  ]
+}
